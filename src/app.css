@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #38b6ff;
+}
+
+.spacings {
+  padding-left: 1.25rem /* 20px */;
+  padding-right: 1.25rem /* 20px */;
+}
+
+@media (min-width: 640px) {
+  .spacings {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .spacings {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .spacings {
+    padding-left: 9rem /* 144px */;
+    padding-right: 9rem /* 144px */;
+  }
+}
+
+@media (min-width: 1536px) {
+  .spacings {
+    padding-left: 15rem /* 240px */;
+    padding-right: 15rem /* 240px */;
+  }
+}
