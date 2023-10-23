@@ -118,7 +118,7 @@
       </div>
     {:else}
       <h2 class="text-3xl text-center mb-11 mt-5">
-        {translation("contactMe", $language)}!
+        {translation("contactMe", $language)}
       </h2>
       <form class="flex flex-col space-y-3" on:submit={validateForm}>
         <input
