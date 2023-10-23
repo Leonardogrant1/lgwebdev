@@ -12,7 +12,7 @@
   import language from "../stores/language";
 
   onMount(() => {
-    const userLanguage = "en-EN"; // navigator.language;
+    const userLanguage = navigator.language || "en-EN";
     language.set(userLanguage);
   });
 </script>

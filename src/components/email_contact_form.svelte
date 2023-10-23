@@ -2,6 +2,7 @@
   import language from "../stores/language";
   import showModal from "../stores/showModal";
   import { translation } from "../language/languageDict";
+  import { scale } from "svelte/transition";
 
   let success = false;
   let error = false;
@@ -68,6 +69,7 @@
   } flex justify-center items-center`}
 >
   <div
+    transition:scale
     class="w-full max-w-xl aspect-square p-5 bg-white rounded h-3/4 md:h-auto"
   >
     {#if success}
