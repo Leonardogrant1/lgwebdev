@@ -1,6 +1,6 @@
 <script>
   import { translation } from "../language/languageDict";
-
+  import Image from "svelte-image";
   import language from "../stores/language";
 </script>
 
@@ -43,10 +43,12 @@
     </div>
   </div>
 
-  <div class="inline-flex items-end justify-center">
-    <img
-      src="/me.svg"
-      class="w-[450px] lg:w-[500px] xl:w-[550px] 2xl:w-[580px]"
+  <div
+    class="inline-flex items-end flex-1 justify-center max-w-[550px] basis-[450px]"
+  >
+    <Image
+      src="/me.png"
+      class="w-[450px] lg:w-[500px] xl:w-[550px] 2xl:w-[580px] aspect-[1/1] object-cover"
       alt="Leonardo Granetto"
     />
   </div>
@@ -61,9 +63,9 @@
     <div
       class="inline-flex rounded-xl items-center overflow-hidden flex-1 flex-col space-y-3 p-6 basis-96"
     >
-      <img
+      <Image
         src="/me_2.jpg"
-        class="rounded-xl max-h-[600px]"
+        class="rounded-xl max-h-[700px] aspect-[1/1] object-cover"
         alt="Leonardo Granetto"
       />
     </div>

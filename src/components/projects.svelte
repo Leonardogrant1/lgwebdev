@@ -3,6 +3,7 @@
   import Skillchip from "./skillchip.svelte";
   import { translation } from "../language/languageDict";
   import type { DictData } from "../language/languageDict";
+  import Image from "svelte-image";
 
   const projects = [
     {
@@ -190,7 +191,7 @@
         class="inline-flex flex-col flex-1 basis-96 bg-white text-black rounded overflow-hidden"
       >
         <div class="w-full">
-          <img src={project.img} alt={project.name} />
+          <Image src={project.img} ratio="55%" alt={project.name} />
         </div>
         <div class="p-5 h-full flex flex-col space-y-4">
           <h3 class="text-3xl">{project.name}</h3>
