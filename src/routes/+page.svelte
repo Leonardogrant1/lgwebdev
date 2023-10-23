@@ -32,3 +32,11 @@
   <Contact />
   <Footer />
 </main>
+
+<svelte:head>
+  <title>LGWebDev</title>
+  <meta
+    name="description"
+    content="Ihr Fullstack Webentwickler für maßgeschneiderte Lösungen. Entdecken Sie kreative Webentwicklung und innovative Designs, um Ihre Online-Präsenz zu optimieren."
+  />
+</svelte:head>

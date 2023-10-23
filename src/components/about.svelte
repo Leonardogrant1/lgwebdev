@@ -44,7 +44,7 @@
   </div>
 
   <div
-    class="inline-flex items-end flex-1 justify-center max-w-[550px] basis-[450px]"
+    class="inline-flex items-end flex-1 justify-center max-w-[550px] aspect-square basis-[450px]"
   >
     <Image
       src="/me.png"
