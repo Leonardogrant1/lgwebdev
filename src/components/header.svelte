@@ -4,7 +4,7 @@
 </script>
 
 <header
-  class="w-full flex justify-between content-center px-5 lg:px-36 xl:px-60 py-4 bg-black"
+  class="w-full flex justify-center md:justify-between content-center px-5 lg:px-36 xl:px-60 py-4 bg-black"
 >
   <img src="/logo.svg" class="w-40" alt="webentwickler" />
 
@@ -16,7 +16,7 @@
     </ul>
   </nav>
 
-  <a href="/#contact">
+  <a href="/#contact" class="hidden md:flex">
     <button
       class="items-center h-12 px-6 py-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-500 hover:bg-blue-700"
     >
