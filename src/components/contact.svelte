@@ -68,7 +68,7 @@
         </div>
       </div>
     </button><a
-      href="https://www.linkedin.com/in/raul-jimenez-778b2a196/"
+      href="https://www.linkedin.com/in/leonardo-granetto-371271225/"
       target="_blank"
       rel="noreferrer"
       aria-label=""
