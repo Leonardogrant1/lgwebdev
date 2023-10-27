@@ -64,7 +64,7 @@
       class="inline-flex rounded-xl items-center overflow-hidden flex-1 flex-col space-y-3 p-6 basis-96"
     >
       <Image
-        src="/me_2.jpg"
+        src="/mee.jpg"
         class="rounded-xl max-h-[700px] aspect-[1/1] object-cover"
         alt="Leonardo Granetto"
       />
